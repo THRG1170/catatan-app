@@ -1,0 +1,73 @@
+.perkenalan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  gap: 3rem;
+  padding-bottom: 6rem;
+  width: 100%;
+}
+
+.perkenalan a {
+  border-radius: 5px;
+  width: 10rem;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  transition: all ease-in-out 250ms;
+  background-color: #178787db;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: all ease-in-out 250ms;
+  -moz-transition: all ease-in-out 250ms;
+  -ms-transition: all ease-in-out 250ms;
+  -o-transition: all ease-in-out 250ms;
+}
+
+.perkenalan a:hover {
+  color: rgb(105, 105, 105);
+  background-color: #0affffdb;
+}
+
+.perkenalan div {
+  text-align: center;
+  font-size: small;
+  border-radius: 10px;
+  width: 18rem;
+  margin-top: 4rem;
+  border-color: #178787db;
+  border-style: dashed;
+  border-width: 1px;
+  color: #178787db;
+  padding: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.perkenalan p {
+  width: 60vw;
+}
+
+@media (max-width: 480px) {
+}
+@media (max-width: 768px) {
+  .perkenalan {
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .perkenalan h1 {
+    font-size: x-large;
+  }
+
+  .perkenalan p {
+    text-align: center;
+  }
+}
+@media (max-width: 1024px) {
+}
